@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="data_handler.h" />
+    <ClInclude Include="http_data_publisher.h" />
+    <ClInclude Include="imodule.hpp" />
+    <ClInclude Include="json_data_publisher.h" />
+    <ClInclude Include="pfr.hpp" />
+    <ClInclude Include="tcp_data_recver.h" />
+    <ClInclude Include="udp_data_recver.h" />
+    <ClInclude Include="module_dependencies.hpp" />
+    <ClInclude Include="module_mgr.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="data_handler.cpp" />
+    <ClCompile Include="http_data_publisher.cpp" />
+    <ClCompile Include="json_data_publisher.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="tcp_data_recver.cpp" />
+    <ClCompile Include="udp_data_recver.cpp" />
+  </ItemGroup>
+</Project>
